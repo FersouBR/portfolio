@@ -9,16 +9,36 @@ function Contact() {
       </h2>
 
       <p className="mt-6 text-slate-400">
-        Disponível para oportunidades, freelas e projetos.
+        Disponível para oportunidades, projetos e desenvolvimento de soluções web.
       </p>
 
-      <div className="mt-6">
+      <div className="mt-8 flex flex-col gap-4">
+
         <a
-          href="mailto:fernando@email.com"
+          href="mailto:fernando_devbr@outlook.com"
           className="text-blue-400 hover:text-blue-300"
         >
-          fernando@email.com
+          📧 fernando_devbr@outlook.com
         </a>
+
+        <a
+          href="https://github.com/FersouBR"
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-400 hover:text-blue-300"
+        >
+          💻 GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/fernando-moreira-de-sousa-680653179/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-400 hover:text-blue-300"
+        >
+          🔗 LinkedIn
+        </a>
+
       </div>
     </section>
   )
