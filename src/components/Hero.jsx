@@ -1,45 +1,58 @@
+import fotoPerfil from '../assets/fernando.jpeg'
 function Hero() {
   return (
-    <section className="max-w-5xl">
+    <section className="grid items-center gap-12 lg:grid-cols-2">
 
-      <div className="inline-block rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
-        Disponível para Projetos e Freelancers
+      <div>
+
+        <p className="text-blue-400 font-semibold uppercase tracking-widest">
+          Portfolio Profissional
+        </p>
+
+        <h1 className="mt-4 text-6xl font-bold">
+          Fernando Souza
+        </h1>
+
+        <h2 className="mt-4 text-2xl text-slate-300">
+          Especialista Técnico em Manutenção
+        </h2>
+
+        <p className="mt-8 text-lg text-slate-400 leading-relaxed">
+         
+          Experiência em manutenção industrial e desenvolvimento
+          de soluções digitais utilizando React, JavaScript,
+          TypeScript e Node.js.
+        </p>
+         <div className="mt-8 flex gap-4">
+
+          <a
+            href="https://github.com/FersouBR"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-lg bg-blue-600 px-5 py-3 hover:bg-blue-700"
+            >
+            GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/fernando-moreira-de-sousa-680653179/"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-lg border border-slate-700 px-5 py-3 hover:bg-slate-800"
+                >
+              LinkedIn
+              </a>
+
+          </div>
+
       </div>
 
-      <h1 className="mt-8 text-6xl font-bold leading-tight">
-        Fernando Souza
-      </h1>
+      <div className="flex justify-center">
 
-      <h2 className="mt-4 text-3xl text-slate-300">
-        Especialista Técnico em Manutenção
-      </h2>
-
-      <h3 className="mt-2 text-xl text-blue-400">
-        Desenvolvedor Full Stack em Formação
-      </h3>
-
-      <p className="mt-8 max-w-3xl text-lg leading-relaxed text-slate-400">
-        Experiência em manutenção industrial, análise de falhas,
-        melhoria contínua e resolução de problemas complexos.
-        Atualmente focado no desenvolvimento de aplicações web
-        modernas utilizando React, TypeScript, Node.js e PostgreSQL.
-      </p>
-
-      <div className="mt-10 flex flex-wrap gap-4">
-
-        <a
-          href="#projetos"
-          className="rounded-lg bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-700"
-        >
-          Ver Projetos
-        </a>
-
-        <a
-          href="#contato"
-          className="rounded-lg border border-slate-700 px-6 py-3 hover:bg-slate-800"
-        >
-          Entrar em Contato
-        </a>
+        <img
+          src={fotoPerfil}
+          alt="Fernando Souza"
+className="h-80 w-80 rounded-full object-cover border-4 border-blue-500 shadow-2xl shadow-blue-500/20"        />
 
       </div>
 

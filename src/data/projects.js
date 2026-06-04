@@ -1,32 +1,24 @@
 const projects = [
   {
     id: 1,
-    title: "Sistema de Manutenção",
+    title: 'OS Industrial',
     description:
-      "Plataforma para gestão de ordens de serviço e indicadores.",
-    technologies: "React • Node.js • PostgreSQL",
-    github: "#",
-    demo: "#"
+      'Sistema de gestão de equipamentos para manutenção industrial com CRUD completo, busca e persistência local.',
+    technologies:
+      'React • React Router • JavaScript • Tailwind CSS • localStorage',
+    demo: 'https://os-industrial-one.vercel.app/',
+    github: 'https://github.com/FersouBR/os-industrial'
   },
 
   {
     id: 2,
-    title: "Dashboard Industrial",
+    title: 'Sistema de Manutenção',
     description:
-      "Painel para acompanhamento de indicadores industriais.",
-    technologies: "React • API • Charts",
-    github: "#",
-    demo: "#"
-  },
-
-  {
-    id: 3,
-    title: "SaaS de Gestão",
-    description:
-      "Sistema web para gestão de clientes e tarefas.",
-    technologies: "React • TypeScript • Node.js",
-    github: "#",
-    demo: "#"
+      'Plataforma para gestão de ordens de serviço, inspeções e indicadores.',
+    technologies:
+      'React • Node.js • PostgreSQL',
+    demo: '#',
+    github: '#'
   }
 ]
 
